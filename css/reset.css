@@ -1,0 +1,55 @@
+/* Обнуляем отступы и паддинги у всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition:.25s ease-in-out;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /* Убираем оформление у списков */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Убираем подчёркивание у ссылок */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Убираем рамки и стили у форм */
+  button,
+  input,
+  textarea,
+  select {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background: none;
+  }
+  
+  /* Кнопки — курсор по умолчанию */
+  button {
+    cursor: pointer;
+  }
+  
+  /* Наследуем шрифт и убираем стиль по умолчанию у всех */
+
+  
+  /* Удаляем quotes у blockquote и q */
+  blockquote,
+  q {
+    quotes: none;
+  }
+  
+  blockquote::before,
+  blockquote::after,
+  q::before,
+  q::after {
+    content: '';
+    content: none;
+  }
+  
