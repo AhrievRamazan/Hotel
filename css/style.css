@@ -631,6 +631,9 @@ header .burger__menu #menu-toggle.open #cross span:nth-child(2) {
   }
 }
 
+footer {
+  position: relative;
+}
 footer .footer__top {
   border-top: 2px solid var(--light-brown);
   border-bottom: 2px solid var(--light-brown);
@@ -722,4 +725,16 @@ footer .footer__bottom a {
     align-items: center;
     gap: 40px;
   }
+}
+footer .pets img:nth-child(1) {
+  position: absolute;
+  right: 0;
+  bottom: -120px;
+  z-index: 1;
+}
+footer .pets img:nth-child(2) {
+  position: absolute;
+  left: 0;
+  bottom: -120px;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
